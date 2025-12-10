@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comanda Mágica Calc Incorporado</title>
+    <style>
+        /* Define a altura e largura do iframe para ocupar a tela e remove margens */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden; /* Evita barras de rolagem desnecessárias no corpo */
+        }
+        #iframe-container {
+            width: 100%;
+            height: 100%;
+        }
+        #iframe-content {
+            width: 100%;
+            height: 100%;
+            border: none; /* Remove a borda padrão do iframe */
+        }
+    </style>
+</head>
+<body>
+
+    <div id="iframe-container">
+        <iframe 
+            id="iframe-content" 
+            src="https://comanda-magica-calc.lovable.app/" 
+            title="Comanda Mágica Calc"
+            loading="lazy"
+            allowfullscreen
+        >
+            Seu navegador não suporta iframes. Você pode acessar a página diretamente aqui: <a href="https://comanda-magica-calc.lovable.app/">Comanda Mágica Calc</a>
+        </iframe>
+    </div>
+
+</body>
+</html>
